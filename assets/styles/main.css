@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=News+Cycle|Material+Icons");
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.1/css/uikit.min.css"); */
+
+body, html {
+	font-family: 'News Cycle', 	sans-serif !important;
+	height: 100%;
+	font-weight: 300 !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+	font-family: 'News Cycle' ,sans-serif;
+	font-weight: 300 !important;
+  }
+
+  .dignity {
+	font-family: "News Cycle", sans-serif;
+	font-weight: 300 !important;
+  }
+
+  i, .material-icons, .fa, .fab, .far, .fas {
+	vertical-align: middle;
+  }
+
