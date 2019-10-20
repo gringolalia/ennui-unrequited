@@ -15,7 +15,7 @@ module.exports = {
       { src: 'node_modules/uikit/dist/js/uikit-core.min.js' },
       { src: 'https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.1/js/uikit-icons.min.js' },
     ],
-    title: pkg.name,
+    title: "My Youth In Kuwait",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -23,7 +23,7 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', type: 'text/csss', href: 'https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.1/css/uikit.min.css' },
+      // { rel: 'stylesheet', type: 'text/csss', href: 'https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.1/css/uikit.min.css'},
       { rel: 'stylesheet', type: 'text/csss', href: 'https://fonts.googleapis.com/css?family=News+Cycle|Material+Icons' },
       { rel: 'stylesheet', type: 'text/csss', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css' },
     ]
@@ -38,7 +38,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
-      '@/assets/scss/main.scss'
+      '@/assets/scss/main.css'
   ],
 
   /*

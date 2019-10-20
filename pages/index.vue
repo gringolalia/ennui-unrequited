@@ -2,11 +2,10 @@
 
 section.container
   div
-    img(src="../assets/images/hammer-sickle.svg" width="150px")
-    h1.uk-heading-xlarge Youth In Kuwait
-      
-    h1.uk-heading-medium You and I in the Kitchen
-    button.uk-button.uk-button-default Imprints
+    img(src="../assets/images/hammer-sickle.svg" width="175px")
+    h1.title Youth In Kuwait      
+    h1.subtitle You and I in the Kitchen
+    button.uk-button.uk-button-primary Imprints
     button.uk-button.uk-button-secondary Offprints
     button.uk-button.uk-button-dark Footprints
 
@@ -25,8 +24,9 @@ export default {
 <style>
 
 .container {
-  min-height: 100vh;
+  min-height: calc(100vh - 120px);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -37,21 +37,18 @@ export default {
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+  font-size: 50px;
 }
 
 .subtitle {
   font-family: "News Cycle", sans-serif;
   font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
+  font-size: 28px;
   padding-bottom: 15px;
 }
 
 .links {
   padding-top: 15px;
 }
+
 </style>
