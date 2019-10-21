@@ -5,43 +5,37 @@ div
 			.uk-navbar-left
 				a.uk-navbar-item.uk-logo(href='#')
 					//- i.fas.fa-university
-					span(uk-icon='icon: commenting; ratio: 3')
+					//- span(uk-icon='icon: commenting; ratio: 3')
+					//- i.fas.fa-chess.fa-2x
+					img(src="@/assets/images/hammer-sickle.svg" width="60px")
 					| &nbsp; Engenho Novo LLC
 				ul.uk-navbar-nav
 					li
-						a(href='#')
+						a.with.dignity(href='#')
 							span.uk-icon.uk-margin-small-right(uk-icon='icon: nut ; ratio: 2')
 							| Configurações
 
-				.uk-navbar-item
+				.uk-navbar-item.with.dignity
 					span.uk-icon.uk-margin-small-right(uk-icon='icon: git-fork; ratio: 2')
 					| BIFURCAÇÕES
 
-				.uk-navbar-item
+				.uk-navbar-item.with.dignity
 					span.uk-icon.uk-margin-small-right(uk-icon='icon: social; ratio: 2')
 					| SOCIOPATIA
 					//- form(action='javascript:void(0)')
 					//- 	input.uk-input.uk-form-width-small(type='text' placeholder='Input')
 					//- 	button.uk-button.uk-button-secondary IMPRIMIR
 	nuxt
-		
-		
 </template>
 
 <style>
 @import url("https://fonts.googleapis.com/css?family=News+Cycle|Naterial+Icons");
 @import "../assets/styles/main.css";
 
-html {
-	font-family: 'News Cycle', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-		Roboto, 'Helvetica Neue', Arial, sans-serif;
-	font-size: 16px;
-	word-spacing: 1px;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
-	box-sizing: border-box;
+nav {
+	font-family: 'News Cycle', sans-serif !important;
+	font-weight: 300 !important;
+	font-style: normal !important;
 }
 
 *,
