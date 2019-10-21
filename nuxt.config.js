@@ -2,7 +2,6 @@ const pkg = require('./package')
 
 module.exports = {
   mode: 'spa',
-
   /*
   ** Headers of the page
   */
@@ -38,7 +37,8 @@ module.exports = {
   ** Global CSS
   */
   css: [
-      '@/assets/scss/main.css'
+      // '@/assets/scss/main.css'
+      '@/assets/scss/custom.scss'
   ],
 
   /*

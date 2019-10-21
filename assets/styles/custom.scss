@@ -1,0 +1,30 @@
+$global-font-family: 'News Cycle', sans-serif;
+$global-primary-background: #607d8b;
+
+html {
+	font-family: 'News Cycle', sans-serif !important;
+	font-weight: 300 !important;
+	font-style: normal !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+	font-family: 'News Cycle', sans-serif !important;
+	font-weight: 300 !important;
+	font-style: normal !important;
+  }
+
+  .material-icons, .fas {
+	vertical-align: middle;
+  }
+
+  .dignity {
+	font-family: 'News Cycle', sans-serif !important;
+	font-weight: 300 !important;
+  }
+  i {
+	vertical-align: middle;
+  }
+
+@import "../node_modules/uikit/src/scss/variables-theme.scss";
+@import "../node_modules/uikit/src/scss/mixins-theme.scss";
+@import "../node_modules/uikit/src/scss/uikit-theme.scss";
