@@ -3,8 +3,8 @@
 section.container
   div
     img(src="../assets/images/hammer-sickle.svg" width="175px")
-    h1.title Youth In Kuwait      
-    h1.subtitle You and I in the Kitchen
+    h1.title Yonder in Kazakhstan
+    h1.subtitle You Imitate Karate
     button.uk-button.uk-button-primary Imprints
     button.uk-button.uk-button-secondary Offprints
     button.uk-button.uk-button-dark Footprints
