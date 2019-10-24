@@ -69,5 +69,8 @@ module.exports = {
 
   generate: {
     dir: 'public'
+  },
+  router: {
+    base
   }
 }
