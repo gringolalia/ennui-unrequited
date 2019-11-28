@@ -1,39 +1,17 @@
-image: node:9.2.1
-
-variables:
-  NODE_ENV: production
+image: node
 
 before_script:
-  - yarn
+  - npm install
 
 cache:
   paths:
     - node_modules/
 
 pages:
-  stage: deploy
   script:
-    - yarn generate
+    - npm run generate
   artifacts:
     paths:
       - public
   only:
     - master
-
-# image: node
-
-# before_script:
-#   - npm install
-
-# cache:
-#   paths:
-#     - node_modules/
-
-# pages:
-#   script:
-#     - npm run generate
-#   artifacts:
-#     paths:
-#       - public
-#   only:
-#     - master
