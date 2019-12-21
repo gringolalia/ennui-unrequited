@@ -3,11 +3,11 @@
 section.container
   div
     img(src="../assets/images/hammer-sickle.svg" width="175px")
-    h1.title Yonder in Kazakhstan
-    h1.subtitle You Imitate Karate
-    button.uk-button.uk-button-primary Imprints
-    button.uk-button.uk-button-secondary Offprints
-    button.uk-button.uk-button-dark Footprints
+    h1.uk-margin-none Yonder Is Khartoum
+    h2 You Initiating Kendo
+    button.uk-button.uk-button-primary.uk-margin-small-right Imprints
+    button.uk-button.uk-button-secondary.uk-margin-small-right Offprints
+    button.uk-button.uk-button-danger Footprints
 
 </template>
 
@@ -45,10 +45,6 @@ export default {
   font-weight: 300;
   font-size: 28px;
   padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
 }
 
 </style>

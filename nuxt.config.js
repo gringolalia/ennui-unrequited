@@ -14,7 +14,7 @@ module.exports = {
       // { src: 'node_modules/uikit/dist/js/uikit-core.min.js' },
       // { src: 'https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.1/js/uikit-icons.min.js' },
     ],
-    title: "You Imitate Karate",
+    title: "You Initiate Kendo",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -38,7 +38,8 @@ module.exports = {
   */
   css: [
       // '@/assets/scss/main.css'
-      '@/assets/scss/custom.scss'
+      // '@/assets/scss/custom.scss'
+      '@/node_modules/uikit/dist/css/uikit.min.css'
   ],
 
   /*
