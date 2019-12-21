@@ -7,7 +7,7 @@ section.container
     h2 You Initiating Kendo
     button.uk-button.uk-button-primary.uk-margin-small-right Imprints
     button.uk-button.uk-button-secondary.uk-margin-small-right Offprints
-    button.uk-button.uk-button-danger Footprints
+    a.uk-button.uk-button-danger(href="about") Footprints
 
 </template>
 

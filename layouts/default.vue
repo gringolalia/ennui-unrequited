@@ -4,31 +4,26 @@ div
 		nav.uk-navbar-container.uk-margin(uk-navbar)
 			.uk-navbar-left
 				a.uk-navbar-item.uk-logo(href='#')
-					//- i.fas.fa-university
-					//- span(uk-icon='icon: commenting; ratio: 3')
-					//- i.fas.fa-chess.fa-2x
 					img(src="../assets/images/cathar-crux.svg" width="60px")
 					| &nbsp; Engenho Novo LLC
 				ul.uk-navbar-nav
-					.uk-navbar-item.with.dignity
-						span.uk-icon.uk-margin-small-right(uk-icon='icon: nut ; ratio: 2')
-						| CONFIGURAR
+					.uk-navbar-item(href="sobre")
+							span.uk-margin-small-right(uk-icon='icon: nut ; ratio: 2')
+							| CONFIGURAR
 
-				.uk-navbar-item.with.dignity
-					span.uk-icon.uk-margin-small-right(uk-icon='icon: git-fork; ratio: 2')
+				.uk-navbar-item
+					span.uk-margin-small-right(uk-icon='icon: git-fork; ratio: 2')
 					| BIFURCAR
 
-				.uk-navbar-item.with.dignity
-					span.uk-icon.uk-margin-small-right(uk-icon='icon: social; ratio: 2')
+				.uk-navbar-item
+					span.uk-margin-small-right(uk-icon='icon: social; ratio: 2')
 					| EMPURRAR
-					//- form(action='javascript:void(0)')
-					//- 	input.uk-input.uk-form-width-small(type='text' placeholder='Input')
-					//- 	button.uk-button.uk-button-secondary IMPRIMIR
 	nuxt
 </template>
 
 <style>
 @import url("https://fonts.googleapis.com/css?family=News+Cycle|Naterial+Icons");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css");
 @import "../assets/styles/main.css";
 
 nav, .dignity, .uk-navbar-item  {
@@ -44,32 +39,15 @@ nav, .dignity, .uk-navbar-item  {
 	margin: 0;
 }
 
-.button--green {
-	display: inline-block;
-	border-radius: 4px;
-	border: 1px solid #3b8070;
-	color: #3b8070;
-	text-decoration: none;
-	padding: 10px 30px;
-}
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-72 { font-size: 72px; }
 
-.button--green:hover {
-	color: #fff;
-	background-color: #3b8070;
-}
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
 
-.button--grey {
-	display: inline-block;
-	border-radius: 4px;
-	border: 1px solid #35495e;
-	color: #35495e;
-	text-decoration: none;
-	padding: 10px 30px;
-	margin-left: 15px;
-}
-
-.button--grey:hover {
-	color: #fff;
-	background-color: #35495e;
-}
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
 </style>

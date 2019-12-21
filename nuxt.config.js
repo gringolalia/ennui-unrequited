@@ -7,12 +7,11 @@ module.exports = {
   */
   head: {
     script: [
-      { src: 'https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.1/js/uikit.min.js' },
-      { src: 'https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.1/js/uikit.min.js' },
-      { src: 'https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.1/js/uikit-icons.min.js' },
-      // { src: 'node_modules/uikit/dist/js/uikit.min.js' },
-      // { src: 'node_modules/uikit/dist/js/uikit-core.min.js' },
-      // { src: 'https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.1/js/uikit-icons.min.js' },
+      { src: 'http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js' },
+      // { src: 'https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.1/js/uikit.min.js' },
+      { src: 'node_modules/uikit/dist/js/uikit.min.js' },
+      { src: 'node_modules/uikit/dist/js/uikit-icons.min.js' }
+
     ],
     title: "You Initiate Kendo",
     meta: [
