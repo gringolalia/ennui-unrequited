@@ -1,11 +1,12 @@
 <template lang="pug">
 
 section.container
-  .uk-card.uk-card-body.uk-card-hover.uk-card-large
+  div
     img(src="../assets/images/hammer-sickle.svg" width="175px")
-    h1.uk-margin-medium-bottom Yonder Is Khartoum
+    h1.uk-margin-remove-bottom Yonder Is Khartoum
+    h2 You Initiating Kendo
     button.uk-button.uk-button-primary.uk-margin-small-right Imprints
-    a.uk-button.uk-button-secondary.uk-margin-small-right(href="sobre") Offprints
+    button.uk-button.uk-button-secondary.uk-margin-small-right Offprints
     a.uk-button.uk-button-danger(href="about") Footprints
 
 </template>
@@ -21,7 +22,6 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css?family=News+Cycle|Naterial+Icons");
 
 .container {
   min-height: calc(100vh - 120px);
