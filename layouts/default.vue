@@ -1,15 +1,15 @@
 <template lang="pug">
 div
-	div(uk-sticky='sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar')
+	div(uk-sticky='sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky')
 		nav.uk-navbar-container.uk-margin(uk-navbar)
 			.uk-navbar-left
-				a.uk-navbar-item.uk-logo(href='/')
+				a.uk-navbar-item.uk-logo(href="	/")
 					img(src="../assets/images/cathar-crux.svg" width="60px")
 					| &nbsp; Engenho Novo LLC
-				ul.uk-navbar-nav
-					.uk-navbar-item(class="uk-visible@m" href="sobre")
-							span.uk-margin-small-right(uk-icon='icon: nut ; ratio: 2')
-							| CONFIGURAR
+
+				.uk-navbar-item(class="uk-visible@m")
+					span.uk-margin-small-right(uk-icon='icon: nut ; ratio: 2')
+					| CONFIGURAR
 
 				.uk-navbar-item(class="uk-visible@m")
 					span.uk-margin-small-right(uk-icon='icon: git-fork; ratio: 2'  )
@@ -18,12 +18,21 @@ div
 				.uk-navbar-item(class="uk-visible@m")
 					span.uk-margin-small-right(uk-icon='icon: social; ratio: 2'  )
 					| EMPURRAR
+
+			.uk-navbar-right
+				.uk-navbar-item
+					.uk-navbar-nav
+						li
+							button.uk-icon-button.uk-margin-medium-right(uk-icon='icon: menu; ratio: 5' class="uk-invisible@l")
+
 	nuxt
 </template>
 
 <style>
 @import url("https://fonts.googleapis.com/css?family=News+Cycle|Naterial+Icons");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css	");
+
+@import "../assets/styles/main.css";
 
 nav, .dignity, .uk-navbar-item  {
 	font-family: 'News Cycle', sans-serif !important;

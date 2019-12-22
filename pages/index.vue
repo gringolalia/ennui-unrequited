@@ -1,12 +1,13 @@
 <template lang="pug">
 
-section.container
-  .uk-card.uk-card-body.uk-card-hover.uk-card-large
-    img(src="../assets/images/hammer-sickle.svg" width="175px")
-    h1.uk-margin-medium-bottom Yonder Is Khartoum
-    button.uk-button.uk-button-primary.uk-margin-small-right Imprints
-    a.uk-button.uk-button-secondary.uk-margin-small-right(href="sobre") Offprints
-    a.uk-button.uk-button-danger(href="about") Footprints
+.uk-section
+	.uk-container-small.uk-align-center
+		.uk-card.uk-card-body.uk-card-hover.uk-card-small.uk-text-center
+				img(src="../assets/images/hammer-sickle.svg" width="175px")
+				h1.uk-margin-medium-bottom Yonder Is Khartoum
+				button.uk-button.uk-button-primary.uk-margin-small-right Imprints
+				a.uk-button.uk-button-secondary.uk-margin-small-right(href="sobre") Offprints
+				a.uk-button.uk-button-primary(href="about") Footprints
 
 </template>
 
@@ -14,9 +15,9 @@ section.container
 import Logo from '~/components/Logo.vue'
 
 export default {
-  components: {
-    Logo
-  }
+	components: {
+		Logo
+	}
 }
 </script>
 
@@ -24,27 +25,27 @@ export default {
 @import url("https://fonts.googleapis.com/css?family=News+Cycle|Naterial+Icons");
 
 .container {
-  min-height: calc(100vh - 120px);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+	min-height: calc(100vh - 120px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
 
 .title {
-  font-family: 'News Cycle', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 50px;
+	font-family: 'News Cycle', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+		'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+	display: block;
+	font-weight: 300;
+	font-size: 50px;
 }
 
 .subtitle {
-  font-family: "News Cycle", sans-serif;
-  font-weight: 300;
-  font-size: 28px;
-  padding-bottom: 15px;
+	font-family: "News Cycle", sans-serif;
+	font-weight: 300;
+	font-size: 28px;
+	padding-bottom: 15px;
 }
 
 </style>

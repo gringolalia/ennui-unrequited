@@ -9,8 +9,8 @@ module.exports = {
     script: [
       { src: 'https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js' },
       // { src: 'https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.1/js/uikit-icons.min.js' },
-      { src: '@/node_modules/uikit/dist/js/uikit.min.js' },
-      { src: '@/node_modules/uikit/dist/js/uikit-icons.min.js' }
+      { src: 'node_modules/uikit/dist/js/uikit.min.js' },
+      { src: 'node_modules/uikit/dist/js/uikit-icons.min.js' }
 
     ],
     title: "You Initiate Kendo",
@@ -39,7 +39,7 @@ module.exports = {
       // '@/assets/scss/main.css'
       // '@/assets/scss/custom.scss'
       '@/node_modules/uikit/dist/css/uikit.min.css',
-      // '@/assets/styles/main.css'
+      '@/assets/styles/main.css'
   ],
 
   /*
