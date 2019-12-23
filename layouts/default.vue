@@ -24,7 +24,37 @@ div
 					.uk-navbar-nav
 						li
 							button.uk-icon-button.uk-margin-medium-right(uk-icon='icon: menu; ratio: 5' class="uk-invisible@l")
-
+							div(uk-dropdown)
+								ul.uk-nav.uk-dropdown-nav
+									li.uk-nav-header American
+									li.uk-active
+										a(href='#') Cadillac
+									li
+										a(href='#') Ford
+									li
+										a(href='#') Dodge
+									li
+										a(href='#') Chevrolet
+									li
+										a(href='#') Mercury
+									li
+										a(href='#') Studebaker
+									li.uk-nav-header British
+									li
+										a(href='#') Jaguar
+									li
+										a(href='#') Rolls-Royce
+									li
+										a(href='#') Bentley
+									li.uk-nav-divider
+									li
+										a(href='#') Aston Martin
+									li
+										a(href='#') Mercury
+									li
+										a(href='#') McLaren
+									li
+										a(href='#') Vauxhall
 	nuxt
 </template>
 

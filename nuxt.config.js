@@ -38,8 +38,8 @@ module.exports = {
   css: [
       // '@/assets/scss/main.css'
       // '@/assets/scss/custom.scss'
-      '@/node_modules/uikit/dist/css/uikit.min.css',
-      '@/assets/styles/main.css'
+      '@/node_modules/uikit/dist/css/uikit.min.css'
+      // '@/assets/styles/main.css'
   ],
 
   /*
