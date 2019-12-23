@@ -2,7 +2,7 @@
 
 .uk-section
 	.uk-container-small.uk-align-center
-		.uk-card.uk-card-body.uk-card-hover.uk-card-small.uk-text-center
+		.uk-card.uk-card-body.uk-card-small.uk-text-center
 				img(src="../assets/images/hammer-sickle.svg" width="175px")
 				h1.uk-margin-medium-bottom Yonder Is Khartoum
 				button.uk-button.uk-button-primary.uk-margin-small-right Imprints
