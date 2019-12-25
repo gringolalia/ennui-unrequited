@@ -80,7 +80,7 @@ dist
 # IDE
 .idea
 
-public/
+# public/
 
 # Local Netlify folder
 .netlify
