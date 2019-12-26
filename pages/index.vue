@@ -4,7 +4,8 @@
 	.uk-container-small.uk-align-center
 		.uk-card.uk-card-body.uk-card-small.uk-text-center
 				img(src="../assets/images/hammer-sickle.svg" width="175px")
-				h1.uk-margin-medium-bottom Yonder Is Khartoum
+				h1 Yonder Is Khartoum
+				h2.uk-margin-medium-bottom Youngsters In Kindergarten
 				button.uk-button.uk-button-primary.uk-margin-small-right Imprints
 				a.uk-button.uk-button-secondary.uk-margin-small-right(href="sobre") Offprints
 				a.uk-button.uk-button-primary(href="about") Footprints
@@ -22,7 +23,6 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css?family=News+Cycle|Naterial+Icons");
 
 .container {
 	min-height: calc(100vh - 120px);

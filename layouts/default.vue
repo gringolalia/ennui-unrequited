@@ -7,7 +7,7 @@ div
 					img(src="../assets/images/cathar-crux.svg" width="60px")
 					| &nbsp; Engenho Novo LLC
 
-				.uk-navbar-item(class="uk-visible@m")
+				a.uk-navbar-item(class="uk-visible@m")
 					span.uk-margin-small-right(uk-icon='icon: nut ; ratio: 2')
 					| CONFIGURAR
 
@@ -26,7 +26,7 @@ div
 							button.uk-icon-button.uk-margin-medium-right(uk-icon='icon: menu; ratio: 5' class="uk-invisible@l")
 							div(uk-dropdown)
 								ul.uk-nav.uk-dropdown-nav
-									li.uk-nav-header American
+									li.uk-nav-header American Autos
 									li.uk-active
 										a(href='#') Cadillac
 									li
@@ -39,7 +39,7 @@ div
 										a(href='#') Mercury
 									li
 										a(href='#') Studebaker
-									li.uk-nav-header British
+									li.uk-nav-header British Cars
 									li
 										a(href='#') Jaguar
 									li
@@ -62,7 +62,7 @@ div
 @import url("https://fonts.googleapis.com/css?family=News+Cycle|Naterial+Icons");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css	");
 
-@import "../assets/styles/main.css";
+@import "../node_modules/uikit/dist/css/uikit.css";
 
 nav, .dignity, .uk-navbar-item  {
 	font-family: 'News Cycle', sans-serif !important;

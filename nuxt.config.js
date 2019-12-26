@@ -13,7 +13,7 @@ module.exports = {
       { src: 'node_modules/uikit/dist/js/uikit-icons.min.js' }
 
     ],
-    title: "You Initiate Kendo",
+    title: "You Initiated Kendo Trials",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -36,7 +36,6 @@ module.exports = {
   ** Global CSS
   */
   css: [
-      // '@/assets/scss/main.css'
       // '@/assets/scss/custom.scss'
       '@/node_modules/uikit/dist/css/uikit.min.css'
       // '@/assets/styles/main.css'
