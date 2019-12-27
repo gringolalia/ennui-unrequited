@@ -68,6 +68,7 @@ div
 
 
 @import "../node_modules/uikit/dist/css/uikit.css";
+/* @import "../assets/styles/uikit/dist/css/uikit.css"; */
 
 a:hover	 {
 	text-decoration: none;

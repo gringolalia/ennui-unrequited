@@ -35,9 +35,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
-      // '@/assets/scss/custom.scss'
-      // '@/node_modules/uikit/dist/css/uikit.min.css'
-      // '@/assets/styles/main.css'
+
   ],
 
   /*
