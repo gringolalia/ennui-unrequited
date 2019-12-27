@@ -11,11 +11,11 @@ div
 					span.uk-margin-small-right(uk-icon='icon: nut ; ratio: 2')
 					| CONFIGURAR
 
-				.uk-navbar-item(class="uk-visible@m")
+				a.uk-navbar-item(class="uk-visible@m")
 					span.uk-margin-small-right(uk-icon='icon: git-fork; ratio: 2'  )
 					| BIFURCAR
 
-				.uk-navbar-item(class="uk-visible@m")
+				a.uk-navbar-item(class="uk-visible@m")
 					span.uk-margin-small-right(uk-icon='icon: social; ratio: 2'  )
 					| EMPURRAR
 
@@ -38,22 +38,26 @@ div
 									li
 										a(href='#') Mercury
 									li
-										a(href='#') Studebaker
-									li.uk-nav-header British Cars
+										a(href='#') Chrysler
+									li
+										a(href='#') Lincoln	
+									li.uk-nav-divider
+									li.uk-nav-header British Motorcars
 									li
 										a(href='#') Jaguar
 									li
 										a(href='#') Rolls-Royce
 									li
 										a(href='#') Bentley
-									li.uk-nav-divider
+									li
+										a(href='#') Land Rover
 									li
 										a(href='#') Aston Martin
 									li
-										a(href='#') Mercury
+										a(href='#') Lotus
 									li
 										a(href='#') McLaren
-									li
+												li
 										a(href='#') Vauxhall
 	nuxt
 </template>
@@ -62,7 +66,12 @@ div
 @import url("https://fonts.googleapis.com/css?family=News+Cycle|Naterial+Icons");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css	");
 
+
 @import "../node_modules/uikit/dist/css/uikit.css";
+
+a:hover {
+	text-decoration: none;
+}
 
 nav, .dignity, .uk-navbar-item  {
 	font-family: 'News Cycle', sans-serif !important;

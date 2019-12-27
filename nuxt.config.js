@@ -8,9 +8,9 @@ module.exports = {
   head: {
     script: [
       { src: 'https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js' },
-      // { src: 'https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.1/js/uikit-icons.min.js' },
-      { src: 'node_modules/uikit/dist/js/uikit.min.js' },
-      { src: 'node_modules/uikit/dist/js/uikit-icons.min.js' }
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.1/js/uikit-icons.min.js' },
+      // { src: 'node_modules/uikit/dist/js/uikit.min.js' },
+      // { src: 'node_modules/uikit/dist/js/uikit-icons.min.js' }
 
     ],
     title: "You Initiated Kendo Trials",
@@ -21,7 +21,6 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      // { rel: 'stylesheet', type: 'text/csss', href: 'https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.1/css/uikit.min.css'},
       { rel: 'stylesheet', type: 'text/csss', href: 'https://fonts.googleapis.com/css?family=News+Cycle|Material+Icons' },
       { rel: 'stylesheet', type: 'text/csss', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css' },
     ]
@@ -37,7 +36,7 @@ module.exports = {
   */
   css: [
       // '@/assets/scss/custom.scss'
-      '@/node_modules/uikit/dist/css/uikit.min.css'
+      // '@/node_modules/uikit/dist/css/uikit.min.css'
       // '@/assets/styles/main.css'
   ],
 
