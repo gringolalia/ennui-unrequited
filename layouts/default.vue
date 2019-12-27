@@ -69,7 +69,7 @@ div
 
 @import "../node_modules/uikit/dist/css/uikit.css";
 
-a:hover {
+a:hover	 {
 	text-decoration: none;
 }
 
