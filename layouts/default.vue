@@ -67,8 +67,8 @@ div
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css	");
 
 
-@import "../node_modules/uikit/dist/css/uikit.css";
-/* @import "../assets/styles/main.css"; */
+/* @import "../node_modules/uikit/dist/css/uikit.css"; */
+@import "../assets/styles/main.css";
 /* @import "../assets/scss/main.css"; */
 
 a:hover	 {
