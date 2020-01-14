@@ -28,37 +28,37 @@ div
 								ul.uk-nav.uk-dropdown-nav
 									li.uk-nav-header American Autos
 									li.uk-active
-										a(href='#') Cadillac
+										a(href='/cadillac') Cadillac
 									li
-										a(href='#') Ford
+										a(href='/ford') Ford
 									li
-										a(href='#') Dodge
+										a(href='/dodge') Dodge
 									li
-										a(href='#') Chevrolet
+										a(href='/chevrolet') Chevrolet
 									li
-										a(href='#') Mercury
+										a(href='/mercury') Mercury
 									li
-										a(href='#') Chrysler
+										a(href='/chrysler') Chrysler
 									li
-										a(href='#') Lincoln	
+										a(href='lincoln') Lincoln	
 									li.uk-nav-divider
 									li.uk-nav-header British Motorcars
 									li
-										a(href='#') Jaguar
+										a(href='/jaguar') Jaguar
 									li
-										a(href='#') Rolls-Royce
+										a(href='/rolls') Rolls-Royce
 									li
-										a(href='#') Bentley
+										a(href='/bentley') Bentley
 									li
-										a(href='#') Land Rover
+										a(href='/land-rover') Land Rover
 									li
-										a(href='#') Aston Martin
+										a(href='/aston-martin') Aston Martin
 									li
-										a(href='#') Lotus
+										a(href='/lotus') Lotus
 									li
-										a(href='#') McLaren
-												li
-										a(href='#') Vauxhall
+										a(href='/mclaren') McLaren
+									li
+										a(href='/vauxhall') Vauxhall
 	nuxt
 </template>
 

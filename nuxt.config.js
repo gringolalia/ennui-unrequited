@@ -13,7 +13,7 @@ module.exports = {
       // { src: 'node_modules/uikit/dist/js/uikit-icons.min.js' }
 
     ],
-    title: "You Initiated Kendo Trials",
+    title: "For Youngsters in Kindergarten",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
