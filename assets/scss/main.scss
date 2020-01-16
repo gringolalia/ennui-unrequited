@@ -2,18 +2,18 @@
 @import "../../node_modules/uikit/src/scss/mixins.scss";
 
 
-$global-font-family: "News Cycle", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif !default;
+$global-font-family: "News Cycle", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 
 
-$global-background:                              #fff !default;
+$global-background:                              #fff;
 
-$global-muted-background:                        #f8f8f8 !default;
-$global-primary-background:                      #607d8b !default;
-$global-secondary-background:                    #778899 !default;
+$global-muted-background:                        #f8f8f8;
+$global-primary-background:                      #607d8b;
+$global-secondary-background:                    #778899;
 
-$global-success-background:                      #005400 !default;
-$global-warning-background:                      #ffffe0 !default;
-$global-danger-background:                       #890000 !default;
+$global-success-background:                      #005400;
+$global-warning-background:                      #ffffe0;
+$global-danger-background:                       #890000;
 
 html {
 font-family: "News Cycle", sans-serif;

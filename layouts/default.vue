@@ -7,15 +7,15 @@ div
 					img(src="../assets/images/cathar-crux.svg" width="60px")
 					| &nbsp; Engenho Novo LLC
 
-				a.uk-navbar-item(class="uk-visible@m")
+				a.uk-navbar-item(class="uk-visible@m" href="/about")
 					span.uk-margin-small-right(uk-icon='icon: nut ; ratio: 2')
 					| CONFIGURAR
 
-				a.uk-navbar-item(class="uk-visible@m")
+				a.uk-navbar-item(class="uk-visible@m" href="/cadillac")
 					span.uk-margin-small-right(uk-icon='icon: git-fork; ratio: 2'  )
 					| BIFURCAR
 
-				a.uk-navbar-item(class="uk-visible@m")
+				a.uk-navbar-item(class="uk-visible@m" href="/rolls")
 					span.uk-margin-small-right(uk-icon='icon: social; ratio: 2'  )
 					| EMPURRAR
 
@@ -92,7 +92,10 @@ nav, .dignity, .uk-navbar-item  {
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
+.material-icons.md-56 { font-size: 56px; }
+.material-icons.md-64 { font-size: 64px; }
 .material-icons.md-72 { font-size: 72px; }
+.material-icons.md-80 { font-size: 80px; }
 
 .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
 .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
