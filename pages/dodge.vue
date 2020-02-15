@@ -4,11 +4,11 @@ div
 		.uk-container-small.uk-align-center
 			.uk-card.uk-card-body.uk-card-small.uk-text-center
 					img(src="../assets/images/hammer-sickle.svg" width="175px")
-					h1 Yonder Is Khartoum
-					h2.uk-margin-remove-top.uk-margin-medium-bottom Youngsters In Kindergarten
-					button.uk-button.uk-button-primary.uk-margin-small-right Imprints
-					a.uk-button.uk-button-secondary.uk-margin-small-right(href="sobre") Offprints
-					a.uk-button.uk-button-primary(href="about") Footprints
+					h1 Trolley Dodgers 
+					h2.uk-margin-remove-top.uk-margin-medium-bottom Jackie Robinson in Dodger Blue
+					button.uk-button.uk-button-primary.uk-margin-small-right Pitching
+					a.uk-button.uk-button-secondary.uk-margin-small-right(href="sobre") Catching
+					a.uk-button.uk-button-primary(href="about") Batting
 
 </template>
 

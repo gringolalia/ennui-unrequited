@@ -40,8 +40,7 @@ div
 									li
 										a(href='/chrysler') Chrysler
 									li
-										a(href='lincoln') Lincoln	
-									li.uk-nav-divider
+										a(href='lincoln') Lincoln
 									li.uk-nav-header British Motorcars
 									li
 										a(href='/jaguar') Jaguar
@@ -60,15 +59,16 @@ div
 									li
 										a(href='/vauxhall') Vauxhall
 	nuxt
+		.uk-animation-fade
 </template>
 
 <style>
 @import url("https://fonts.googleapis.com/css?family=News+Cycle|Naterial+Icons");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css	");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css");
 
 
 /* @import "../node_modules/uikit/dist/css/uikit.css"; */
-@import "../assets/styles/main.css";
+/* @import "../assets/styles/main.css"; */
 /* @import "../assets/scss/main.css"; */
 
 a:hover	 {
