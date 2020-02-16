@@ -1,6 +1,6 @@
 /* @import "uikit/dist/css/uikit-core.css"; */
-/* @import "uikit/dist/css/uikit.css"; */
-@import "../../node_modules/uikit/dist/css/uikit.css";
+@import "uikit/dist/css/uikit.css";
+/* @import "../../node_modules/uikit/dist/css/uikit.css"; */
 
 body,
 html {
