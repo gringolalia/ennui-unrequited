@@ -73,20 +73,4 @@ export default {
 	align-items: center;
 	text-align: center;
 }
-
-.title {
-	font-family: 'News Cycle', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-		'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-	display: block;
-	font-weight: 300;
-	font-size: 50px;
-}
-
-.subtitle {
-	font-family: "News Cycle", sans-serif;
-	font-weight: 300;
-	font-size: 28px;
-	padding-bottom: 15px;
-}
-
 </style>
