@@ -65,7 +65,8 @@ div
 <style>
 @import url("https://fonts.googleapis.com/css?family=News+Cycle|Naterial+Icons");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css");
-@import "../node_modules/uikit/dist/css/uikit.css";
+/* @import "../node_modules/uikit/dist/css/uikit.css"; */
+@import "../assets/styles/sassy.css";
 
 a:hover	 {
 	text-decoration: none;

@@ -37,6 +37,7 @@ module.exports = {
   css: [
     // './node_modules/uikit/dist/css/uikit.css'
     // 'assets/styles/uikit/dist/css/uikit.css'
+    'assets/styles/sassy.css'
   ],
 
   /*
