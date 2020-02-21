@@ -65,7 +65,7 @@ export default {
 
 <style>
 
-@import "../node_modules/uikit/dist/css/uikit.css";
+/* @import "../node_modules/uikit/dist/css/uikit.css"; */
 
 .container {
 	min-height: calc(100vh - 120px);
