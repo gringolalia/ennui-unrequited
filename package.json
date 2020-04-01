@@ -12,6 +12,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "core-js": "^2.5.7",
     "cross-env": "^5.2.0",
     "express": "^4.17.1",
     "less": "^3.10.3",
