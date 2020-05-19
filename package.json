@@ -9,7 +9,8 @@
     "build": "nuxt generate",
     "start": "cross-env NODE_ENV=production node server/index.js",
     "heroku-postbuild": "npm run build",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "core-js": "^2.5.7",
