@@ -1,4 +1,4 @@
-<template lang="pug">
+	<template lang="pug">
 .uk-animation-fade
 	.uk-flex(style="height: 100vh")
 		.uk-container-small.uk-align-center
@@ -11,7 +11,6 @@
 				a.uk-button.uk-button-primary(href="about") Footprints
 
 	.uk-section(style="height: 100vh")
-
 		.uk-grid-collapse#down(uk-grid)
 			.uk-card.uk-card-light(class="uk-width-1-3@m")
 				.uk-card-header
@@ -35,7 +34,7 @@
 				.uk-card-body
 					p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
 				.uk-card-footer
-					button.uk-button.uk-button-default Hacks
+					button.uk-button.uk-button-default Impromptus
 
 			.uk-card.uk-card-default.uk-card-hover(class="uk-width-1-3@m")
 				.uk-card-header
@@ -47,9 +46,44 @@
 				.uk-card-body
 					p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
 				.uk-card-footer
-					button.uk-button.uk-button-secondary Bodges
+					button.uk-button.uk-button-primary Bodges
 
+		.uk-grid-collapse#down(uk-grid)
+			.uk-card.uk-card-primary(class="uk-width-1-3@m")
+					.uk-card-header
+						.uk-grid-small.uk-flex-middle(uk-grid)
+							.uk-width-auto
+								img.uk-border-circle(width='40' height='40' src='../assets/images/cathar-crux.svg')
+							.uk-width-expand
+								h3.uk-card-title.uk-margin-remove-bottom Engenhocas 
+					.uk-card-body
+						p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+					.uk-card-footer
+						.button.uk-button.uk-button-default.uk-margin-small-right Shambles
 
+			.uk-card.uk-card-light(class="uk-width-1-3@m")
+					.uk-card-header
+						.uk-grid-small.uk-flex-middle(uk-grid)
+							.uk-width-auto
+								img.uk-border-circle(width='40' height='40' src='../assets/images/cathar-crux.svg')
+							.uk-width-expand
+								h3.uk-card-title.uk-margin-remove-bottom Engenhocas 
+					.uk-card-body
+						p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+					.uk-card-footer
+						.button.uk-button.uk-button-default.uk-margin-small-right Winging It
+
+			.uk-card.uk-card-primary(class="uk-width-1-3@m")
+					.uk-card-header
+						.uk-grid-small.uk-flex-middle(uk-grid)
+							.uk-width-auto
+								img.uk-border-circle(width='40' height='40' src='../assets/images/cathar-crux.svg')
+							.uk-width-expand
+								h3.uk-card-title.uk-margin-remove-bottom Engenhocas 
+					.uk-card-body
+						p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+					.uk-card-footer
+						.button.uk-button.uk-button-default.uk-margin-small-right Stopgaps
 
 </template>
 

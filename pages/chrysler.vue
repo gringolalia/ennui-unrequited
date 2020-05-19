@@ -4,8 +4,9 @@ div
 		.uk-container-small.uk-align-center
 			.uk-card.uk-card-body.uk-card-small.uk-text-center
 					img(src="../assets/images/hammer-sickle.svg" width="175px")
-					h1 As In the Building
-					h2.uk-margin-remove-top.uk-margin-medium-bottom Twentieth Century Dynamism
+					h1.uk-margin-small-bottom Chrysler
+					h2 As In the Building
+					h3.uk-margin-remove-top.uk-margin-medium-bottom A Twentieth Century Dynamo
 					button.uk-button.uk-button-primary.uk-margin-small-right Imprints
 					a.uk-button.uk-button-secondary.uk-margin-small-right(href="sobre") Offprints
 					a.uk-button.uk-button-primary(href="about") Footprints

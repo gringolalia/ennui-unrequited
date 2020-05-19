@@ -1,11 +1,12 @@
-	<template lang="pug">
+<template lang="pug">
 div
 	.uk-flex(style="max-height: 100vh")
 		.uk-container-small.uk-align-center
 			.uk-card.uk-card-body.uk-card-small.uk-text-center
 					img(src="../assets/images/hammer-sickle.svg" width="175px")
-					h1 Midwifery and War
-					h2.uk-margin-remove-top.uk-margin-medium-bottom The Jaguar Twin Hero
+					h1.uk-text-large Jaguar
+					h1 A Mayan Midnight Sun	
+					h2.uk-margin-remove-top.uk-margin-medium-bottom Jaguar Is One Crazy Kat
 					button.uk-button.uk-button-primary.uk-margin-small-right Leões
 					a.uk-button.uk-button-secondary.uk-margin-small-right(href="sobre") Tigres
 					a.uk-button.uk-button-primary.uk-margin-small-right(href="about") Guepardos

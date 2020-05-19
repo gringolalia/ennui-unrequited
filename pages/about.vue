@@ -1,6 +1,6 @@
 <template lang="pug">
 .uk-animation-fade
-	.home.uk-margin-large-top
+		.home.uk-margin-large-top
 
 		.uk-flex.uk-flex-wrap.uk-flex-center.uk-text-center
 
@@ -13,7 +13,7 @@
 						button.uk-modal-close-default(type='button' uk-close)
 						.uk-modal-header.uk-background-muted
 							h2.uk-modal-title
-								span.uk-margin-small-right(uk-icon='icon: commenting; ratio: 3')
+								i.fas.fa-sun.fa-2x.uk-margin-small-right
 								| Engenho Novo LLC
 						.uk-modal-body
 							p Φαβθλασ οπορτεατ ρεπρεηενδθντ cθμ ει. Ιν ασσθμ cονγθε δοcενδι qθι, vιξ ετ ιμπετθσ θτροqθε δολορεμ. Ει qθισ αλιqθιπ προδεσσετ vιξ. Qθι ερρορ σεμπερ απειριαν νε, εστ τε λαβορε δοcτθσ νεcεσσιτατιβθσ. Ρεqθε σcριπτα νε vιξ, μελ αδ μθνδι cονσεqθατ δεφινιτιονεσ, νεc ποσσε ιισqθε vολθμθσ αν.
