@@ -4,7 +4,7 @@ module.exports = {
   mode: 'spa',
   router: {
     base: '/ennui-unrequited'
-  }
+  },
   /*
   ** Headers of the page
   */
